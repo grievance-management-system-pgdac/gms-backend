@@ -17,7 +17,7 @@ public class SecurityCorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // Frontend URL
-        config.setAllowedOrigins(List.of("http://localhost:5173"));
+        config.setAllowedOrigins(List.of("https://gmscdac.vercel.app"));
 
         // HTTP methods
         config.setAllowedMethods(List.of(
